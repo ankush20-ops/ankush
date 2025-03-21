@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load("heart_disease_model.pkl")
+model = joblib.load("hheart_disease_model.pkl")
 
 # Function to make predictions
 def predict_heart_disease(data):
